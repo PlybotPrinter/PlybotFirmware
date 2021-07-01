@@ -1,2 +1,3 @@
 #!/bin/sh
-echo test
+cd ~/openocd
+sudo ./openocd -f plybot.cfg
